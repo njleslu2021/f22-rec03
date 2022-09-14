@@ -20,7 +20,7 @@ test("test isEmpty: list with 1 element is not empty", () => {
 
 test("test peek: newly created list should peek null", () => {
 
-    expect(createQueue().peek()).toBeNull()
+    expect(createQueue().peek()).toBeNull() 
 })
 
 test("test peek: queue with 2 element should peek the one that was most recently added", () => {
